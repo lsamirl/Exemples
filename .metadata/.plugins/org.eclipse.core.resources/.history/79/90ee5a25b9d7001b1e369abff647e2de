@@ -1,0 +1,23 @@
+
+<xml>
+<web-app>
+	<servlet>
+		<servlet-name>one</servlet-name>
+		<servlet-class>com.appointment.BankPortal</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>one</servlet-name>
+		<url-pattern>Bank_register.html</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>two</servlet-name>
+		<servlet-class>com.appointment.BankPortal</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>two</servlet-name>
+		<url-pattern>Bank_login</url-pattern>
+	</servlet-mapping>
+</web-app>
+</xml>

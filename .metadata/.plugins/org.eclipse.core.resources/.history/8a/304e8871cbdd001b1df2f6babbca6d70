@@ -1,0 +1,13 @@
+package com.appointment;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class PatientController
+ */
+@WebServlet("/PatientController")
+public class PatientController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}

@@ -1,0 +1,39 @@
+<html>
+<body bgcolor="MediumSeaGreen ">
+<br><br>
+<h1 align="center" style="color:white;">Appointment Application</h1>
+
+<h1 align="center">
+<a href="Patient_home.html">Patient Home</a> |
+<a href="profile.jsp">Profile</a> |
+<a href="#">Appointment</a> |
+<a href="#">Status</a> |
+<a href="index.html">Logout</a>
+</h1>
+
+<%@page import="java.sql.* "%>
+<table border="3" width ="300" height="200" cellpadding="20" align ="center">
+<tr><td>Patient ID</td><td> username</td><td>Email</td><td>Phone</td><td>Address</td></tr>
+<%
+Connection con  = null;
+PreparedStatement ps = null;
+
+Class.forName("com.mysql.cj.jdbc.Driver");
+String url="jdbc:mysql://localhost:3306/myfirstsqleexemple";
+String user = "root";
+String pass = "Root";
+con  = DriverManager.getConnection(url, user, pass);
+ps = con.prepareStatement("select*from patient");
+ResultSet rs = ps.executeQuery();
+
+while(rs.next()){
+%>
+<tr><td><%=rs.getInt(1) %></td></tr><tr><td><%=rs.getString(2) %></td></tr>
+<tr><td><%=rs.getString("email") %></td></tr><tr><td><%=rs.getString("mobile") %></td></tr>
+<tr><td><%=rs.getString("address") %></td></tr>
+	<%
+}
+%>
+</table>
+</body>
+</html>

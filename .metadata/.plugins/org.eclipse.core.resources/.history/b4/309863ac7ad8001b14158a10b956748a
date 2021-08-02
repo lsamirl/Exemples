@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<servlet>
+		<servlet-name>one</servlet-name>
+		<servlet-class>com.appointment.PatientPortal</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>one</servlet-name>
+		<url-pattern>/Patient_register</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>two</servlet-name>
+		<servlet-class>com.appointment.PatientHome</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>two</servlet-name>
+		<url-pattern>/Patient_login</url-pattern>
+	</servlet-mapping>
+</web-app>

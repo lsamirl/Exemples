@@ -1,0 +1,19 @@
+package TestCode;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Scanner cs = new Scanner(System.in);
+		System.out.println("Number = ");
+			boolean Number = cs.hasNextInt();
+			if(Number) {
+				System.out.println("Please enter a number");
+			}
+
+
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package TestCode;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Scanner cs = new Scanner(System.in);
+		System.out.println("Number = ");
+		int I = cs.nextInt();
+	
+			if(I>0) { 
+				System.out.println(I);	
+			}
+
+
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.appointment;
+
+import java.sql.SQLException;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class PatientController extends HttpServlet {
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response) {
+		String username = request.getParameter("username");
+		String password=request.getParameter("password");
+		
+		LoginBean lb= new LoginBean();
+		try {
+			boolean x = lb.validate(username, password);
+			if(x)
+				response.sendRedirect("./Patient_home.html");
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	}

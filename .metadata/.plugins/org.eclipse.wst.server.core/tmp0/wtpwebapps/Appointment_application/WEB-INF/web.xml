@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.reservation.Patientproject</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/patient_registration</url-pattern>
+	</servlet-mapping>
+</web-app>

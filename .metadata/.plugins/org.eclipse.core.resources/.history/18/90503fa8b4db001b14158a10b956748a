@@ -1,0 +1,18 @@
+<html>
+<body bgcolor=yellow>
+		<h1 align=center><u> appointement application Form</u><hr color=blue></h1>
+		<h5 align=center> Please complete the form below.</h5>
+		<table width="250" height="100" cellpadding="5" align="center">
+	<form action="./patient_registration" method="get" align=center>
+
+		<tr><td><b>username</b></td><td><input type="text" name="username" placeholder="enter username"></td></tr>
+		<tr><td><b>Password</b></td><td><input type="text" name="password" placeholder="enter password"></td></tr>
+		<tr><td><b>mobile</b></td><td><input type="number" name="mobile" placeholder="enter the phone"></td></tr>
+		<tr><td><b>email:</b></td><td><input type="email" name="email" placeholder="enter the email"></td></tr>
+		<tr><td><b>Address</b></td><td><input type="text" name="address" placeholder="enter the adress"></td></tr>
+		<tr><td><input type="submit" value="register"></td></tr>
+
+</form>
+</table>
+</body>
+</html>

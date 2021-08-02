@@ -1,0 +1,12 @@
+
+<web-app>
+	<servlet>
+		<servlet-name>one</servlet-name>
+		<servlet-class>com.appointement.BankerLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>one</servlet-name>
+		<url-pattern>Banker_register</url-pattern>
+	</servlet-mapping>
+</web-app>

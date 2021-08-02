@@ -1,0 +1,7 @@
+127.0.0.1 - - [05/Jul/2021:15:37:03 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:37:04 -0500] "GET /MvcServletJSp/ HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:37:08 -0500] "GET /MvcServletJSp/Patient_login.html HTTP/1.1" 200 633
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:37:20 -0500] "POST /MvcServletJSp/Patient_login HTTP/1.1" 500 1497
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:37:20 -0500] "POST /MvcServletJSp/Patient_login HTTP/1.1" 500 1497
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:39:23 -0500] "POST /MvcServletJSp/Patient_login HTTP/1.1" 500 1497
+0:0:0:0:0:0:0:1 - - [05/Jul/2021:15:39:35 -0500] "POST /MvcServletJSp/Patient_login HTTP/1.1" 500 1497

@@ -1,0 +1,13 @@
+<html>
+<body bgcolor="MediumSeaGreen ">
+<br><br>
+<h1 align="center" style="color:white;">Appointment Application</h1>
+
+<table>
+<a href="Pation_home.html">Patient Home</a>|
+<a href="#">Appointment</a>|
+<a href="#">Patient Login</a>|
+
+</table>
+</body>
+</html>

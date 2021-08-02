@@ -1,0 +1,27 @@
+package com.appointment;
+
+public class cxzxz {
+
+	public static void main(String[] args) {
+		Integer number = null;
+		Integer arr[]= new Integer[2];
+		
+		try { arr[4] = number/0;
+		System.out.println("Nothing wrong");
+		}
+		catch(ArithmeticException e) {
+			System.out.println("Arthmentic");
+			
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("ARREXCEPtion");
+			
+		}catch(NullPointerException e) {
+			System.out.println("Null ");
+			
+		}
+		
+		}
+
+	}
+
+
